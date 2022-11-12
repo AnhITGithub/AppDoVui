@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="Back"
+        android:icon="@drawable/ic_baseline_arrow_back_24"
+        android:id="@+id/back"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:title="Search"
+        android:id="@+id/search"
+        android:icon="@drawable/ic_baseline_search_24"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:title="Xin chào !"
+        android:id="@+id/helo"/>
+    <item
+        android:title="Đánh giá"
+        android:id="@+id/vote"/>
+    <item
+        android:title="About"
+        android:id="@+id/about"/>
+</menu>
