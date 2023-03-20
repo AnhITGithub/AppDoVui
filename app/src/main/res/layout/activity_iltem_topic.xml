@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/anh"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+    <TextView
+        android:id="@+id/ten"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tên chủ đề"
+        android:textSize="30sp"
+        android:textStyle="italic"
+        android:fontFamily="sans-serif-condensed"
+        android:textColor="#FFE500"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="150dp"/>
+
+
+</RelativeLayout>
